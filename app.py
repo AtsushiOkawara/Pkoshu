@@ -32,3 +32,6 @@ def delete(id):
     return redirect('/')
 if __name__ == "__main__":
         app.run(debug=True)
+
+from flask import Flask, render_template
+app = Flask(__name__, static_folder='static')
