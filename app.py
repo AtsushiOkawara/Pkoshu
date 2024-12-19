@@ -1,5 +1,5 @@
-from flask import Flask ,render_template, request, redirect # 変更
-from flask_sqlalchemy import SQLAlchemy # 追加
+from flask import Flask ,render_template, request, redirect #変更
+from flask_sqlalchemy import SQLAlchemy #追加
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///todo.db"
 db = SQLAlchemy(app)
