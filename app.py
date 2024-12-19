@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 from flask import Flask ,render_template, request, redirect #変更
 from flask_sqlalchemy import SQLAlchemy #追加
-=======
-from flask import Flask, render_template, request, redirect
-from flask_sqlalchemy import SQLAlchemy
-
->>>>>>> f93d996af21f5e8bf93149028959bbdaf5a3e3e7
 app = Flask(__name__)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///todo.db"
